@@ -1,0 +1,196 @@
+body {
+	background-color: #0A1612;
+	text-align: center;
+}
+
+.menu {
+	height: 8vh;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	grid-gap: 15px;
+	padding: 0;
+	margin-bottom: 5px;
+}
+
+.logo {
+	float: center;
+	height: 80px;
+	width: 240px;
+	margin-left: 20px;
+	text-align: center;
+	background-image: url(../images/logo.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+li {
+	border: 2px orange solid;
+	color: Blue;
+	padding: 20px;
+	font-size: 20px;
+}
+
+li:hover {
+	background-color: #F7CE3E;
+	color: gray;
+}
+
+li {
+	list-style: none;
+	padding: 10px;
+	background: #1F2833;
+	border: 5px black solid;
+	color: white;
+	text-align: center;
+	font-family: impact;
+	border: 6px;
+}
+
+.balls {
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 5px;
+}
+
+.ball2 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic2 {
+	height: 60vh;
+	background-image: url(../images/9.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text2 {
+	color: #C5C6C7;
+}
+
+.ball3 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic3 {
+	height: 60vh;
+	background-image: url(../images/6.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text3 {
+	color: #C5C6C7;
+}
+
+.shoes {
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.shoes1 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic11 {
+	height: 60vh;
+	background-image: url(../images/7.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text11 {
+	color: #C5C6C7;
+}
+
+.shoes2 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic22 {
+	height: 60vh;
+	background-image: url(../images/8.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text22 {
+	color: #C5C6C7;
+}
+
+.shorts {
+	height: 90vh;
+	display: grid;
+	grid-template-columns: 3fr 3fr;
+	padding: 5px;
+	grid-gap: 5px;
+	margin-top: 25px;
+}
+
+.shorts1 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic111 {
+	height: 60vh;
+	background-image: url(../images/10.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text111 {
+	color: #C5C6C7;
+}
+
+.shirt2 {
+	display: grid;
+	background-color: #1A2930;
+	padding: 10px
+}
+
+.pic222 {
+	height: 60vh;
+	background-image: url(../images/11.jpeg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.text222 {
+	color: #C5C6C7;
+}
+
+a {
+	text-decoration: none;
+}
+
+.footer {
+	padding: 5px;
+	height: 5vh;
+	margin-top: 5px;
+	font-size: 13px;
+	color: white;
+	text-align: center;
+}
